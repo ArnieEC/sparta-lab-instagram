@@ -1,0 +1,9 @@
+.phoneimg {
+  display:flex;
+  justify-content:flex-start;
+}
+
+.rightcontainer {
+  display:flex;
+  justify-content:flex-end;
+}
