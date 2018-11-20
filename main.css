@@ -12,6 +12,17 @@
   flex-direction:column;
 }
 
+.toprightcontainer {
+  border: 0.1px solid rgb(216, 216, 216);
+  padding: 5px 40px 5px 40px;
+}
+
+.logo {
+  height: 70px;
+  width: 200px;
+  padding-top: 10px;
+}
+
 nav {
   display:flex;
   justify-content: flex-start;
@@ -46,7 +57,7 @@ input {
 }
 
 button {
-  background-color: blue;
+  background-color: rgb(75, 75, 255);
   text-align: center;
   color: white;
   font-weight: bold;
@@ -60,6 +71,33 @@ button {
 h1 {
   font-size: 18px;
   color: gray;
+}
+
+h2 {
+  font-size: 18px;
+  color: gray;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 18px;
+  color: gray;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 18px;
+  color: black;
+  font-weight: normal;
+  border: 0.1px solid rgb(212, 212, 212);
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+h5 {
+  font-size: 18px;
+  color: black;
+  font-weight: normal;
 }
 
 p {
