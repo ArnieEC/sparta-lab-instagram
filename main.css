@@ -1,3 +1,7 @@
+.maincontainer {
+  display:flex;
+  justify-content:flex-start;
+}
 .phoneimg {
   display:flex;
   justify-content:flex-start;
@@ -5,5 +9,33 @@
 
 .rightcontainer {
   display:flex;
-  justify-content:flex-end;
+  flex-direction:column;
+}
+
+nav {
+  display:flex;
+  justify-content: flex-start;
+}
+
+body {
+  text-align: center;
+  font-style: inherit;
+}
+
+ul {
+  display:flex;
+  justify-content:flex-start space-around;
+}
+
+form {
+  width: 300px;
+}
+
+button {
+  background-color: blue;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  width: 300px;
+  display: inline-block;
 }
